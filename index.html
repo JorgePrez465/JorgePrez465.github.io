@@ -2,158 +2,97 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <title>Map-Li</title>
-  <!-- Bootstrap icons-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Bienvenido a FADU</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
-  <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container px-4 px-lg-5">
-      <a class="navbar-brand" href="#!">Map-Li</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
-          class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">Map</a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#!">All Treatments</a></li>
-              <li>
-                <hr class="dropdown-divider" />
-              </li>
-              <li><a class="dropdown-item" href="#!">Bar Codes</a></li>
-              <li><a class="dropdown-item" href="#!">Something</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Header-->
-  <header class="bg-dark py-5">
-    <div class="container px-4 px-lg-5 my-5">
-      <div class="text-center text-white">
-        <h1 class="display-4 fw-bolder">Bar Codes</h1>
-        <p class="lead fw-normal text-white-50 mb-0">Something Something Something</p>
-      </div>
-    </div>
-  </header>
-  <!-- Section-->
-  <section class="py-5">
-    <div class="container px-4 px-lg-5 mt-5">
-      <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-        <div class="col mb-5">
-          <div class="card h-100">
-            <!-- Product details-->
-            <div class="card-body p-4">
-              <div class="text-center">
-                <!-- Product name-->
-                <h5 class="fw-bolder">Treatment 1</h5>
-              </div>
+    <!-- Header - set the background image for the header in the line below-->
+    <header class="">
+        <div class="">
+            <img class="" src="fadu-banner.png" alt="..." />
+        </div>
+    </header>
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#!">FADU</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                </ul>
             </div>
-            <!-- Product actions-->
-            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" data-bs-toggle="modal"
-                  data-bs-target="#treatment1">See More</a>
-                <div class="modal fade" id="treatment1" tabindex="-1" role="dialog" aria- labelledby="exampleModalLabel"
-                  aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Treatment 1</h5>
-                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <div class="list-group">
-                          <button type="button" class="list-group-item list-group-item-action" onclick="group1()">Group
-                            1</button>
-                          <button type="button" class="list-group-item list-group-item-action " onclick="group2()"">Group 2</button>
-                          <button type=" button" class="list-group-item list-group-item-action"
-                            onclick="group3()">Group 3</button>
-                          <button type="button" class="list-group-item list-group-item-action" onclick="group4()"">Group 4</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+        </div>
+    </nav>
+    <!-- Content section-->
+    <section class="">
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-5">
+                    <h2>Quienes somos</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam doloremque sequi
+                        impedit accusamus ratione, ipsum possimus vitae? Provident, quia fugiat nobis nihil soluta ex
+                        voluptates incidunt quo voluptatibus similique qui!</p>
+                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni in nemo commodi iure,
+                        totam recusandae et eligendi similique est sapiente veniam nostrum! Velit, amet. Impedit nisi
+                        voluptates non molestias aut!</p>
                 </div>
-              </div>
             </div>
-          </div>
+            <div class="row justify-content-end">
+                <div class="col-5">
+                    <h2>Quienes somos</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam doloremque sequi
+                        impedit accusamus ratione, ipsum possimus vitae? Provident, quia fugiat nobis nihil soluta ex
+                        voluptates incidunt quo voluptatibus similique qui!</p>
+                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni in nemo commodi iure,
+                        totam recusandae et eligendi similique est sapiente veniam nostrum! Velit, amet. Impedit nisi
+                        voluptates non molestias aut!</p>
+                </div>
+            </div>
         </div>
-        <div class=" col mb-5">
-                            <div class="card h-100">
-                              <!-- Product details-->
-                              <div class="card-body p-4">
-                                <div class="text-center">
-                                  <!-- Product name-->
-                                  <h5 class="fw-bolder">Treatment 2</h5>
-                                </div>
-                              </div>
-                              <!-- Product actions-->
-                              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"
-                                    data-bs-toggle="modal" data-bs-target="#treatment2">See More</a>
-                                  <div class="modal fade" id="treatment2" tabindex="-1" role="dialog" aria-
-                                    labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog" role="document">
-                                      <div class="modal-content">
-                                        <div class="modal-header">
-                                          <h5 class="modal-title" id="exampleModalLabel">Treatment 2</h5>
-                                          <button type="button" class="close" data-bs-dismiss="modal"
-                                            aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                          </button>
-                                        </div>
-                                        <div class="modal-body">
-                                          <div class="list-group">
-                                            <a type="button" class="list-group-item list-group-item-action"
-                                              href="images.html">
-                                              Group 1
-                                            </a>
-
-                                            <button type="button" class="list-group-item list-group-item-action">Group
-                                              2</button>
-                                            <button type="button" class="list-group-item list-group-item-action">Group
-                                              3</button>
-                                            <button type="button" class="list-group-item list-group-item-action">Group
-                                              4</button>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                </div>
-                              </div>
-                            </div>
-                        </div>
-        </div>
-      </div>
-  </section>
-  <!-- Footer-->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p>
+    </section>
+    <!-- Image element - set the background image for the header in the line below-->
+    <div class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800')">
+        <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
+        <div style="height: 20rem"></div>
     </div>
-  </footer>
-  <script src="index.js"></script>
-  <!-- Bootstrap core JS-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"></script>
+    <!-- Content section-->
+    <section class="py-5">
+        <div class="container my-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h2>Engaging Background Images</h2>
+                    <p class="lead">The background images used in this template are sourced from Unsplash and are open
+                        source and free to use.</p>
+                    <p class="mb-0">I can't tell you how many people say they were turned off from science because of a
+                        science teacher that completely sucked out all the inspiration and enthusiasm they had for the
+                        course.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

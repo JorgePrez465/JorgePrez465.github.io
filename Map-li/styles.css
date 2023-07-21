@@ -1,14 +1,14 @@
 @charset "UTF-8";
 /*!
-* Start Bootstrap - Full Width Pics v5.0.6 (https://startbootstrap.com/template/full-width-pics)
+* Start Bootstrap - Shop Homepage v5.0.6 (https://startbootstrap.com/template/shop-homepage)
 * Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-full-width-pics/blob/master/LICENSE)
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
 */
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
- * Licensed under nav-barMIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
   --bs-blue: #0d6efd;
@@ -7301,7 +7301,7 @@ textarea.form-control-lg {
 }
 
 .h-100 {
-  height: 100% !important;
+  height: 50% !important;
 }
 
 .h-auto {
@@ -10823,10 +10823,4 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}
-.bg-image-full {
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center;
-  background-size: cover;
 }
